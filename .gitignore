@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPython
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build/packaging
+dist/
+build/
+*.egg-info/
+
+# Secrets / env
+.env
+
+# Large data and generated outputs
+videos/
+frames/
+detected_frames/
+audios/
+results.json
+
+# Model weights and large binaries
+*.pt
+*.pth
+
+# Streamlit logs and reports
+*.log
+*.report
+
+# Git LFS placeholder (if not using LFS, large files should be excluded above)
+
+# Optional: include this file in repo if you want to keep model files elsewhere
+# README.md will include notes about using Git LFS for large files

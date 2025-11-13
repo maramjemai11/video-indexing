@@ -1,0 +1,11 @@
+opencv-python
+ffmpeg-python
+openai-whisper
+ultralytics
+streamlit
+# Note: Whisper and Ultralytics may require torch. Install the correct torch wheel for your platform (CPU vs CUDA).
+# Example (CPU):
+# torch
+# torchvision
+
+# If you use GPU/CUDA, install torch following instructions at https://pytorch.org/get-started/locally/
